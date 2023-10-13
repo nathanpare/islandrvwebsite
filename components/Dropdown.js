@@ -15,7 +15,7 @@ export default function Example() {
     <Menu as="div" className="relative inline-block text-left">
       <div>
         <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#9A0000] px-3 py-2 text-sm md:text-md font-semibold text-black">
-          Options
+          More
           <ChevronDownIcon className="-mr-1 h-5 w-5 text-black" aria-hidden="true" />
         </Menu.Button>
       </div>
@@ -34,14 +34,14 @@ export default function Example() {
             <Menu.Item>
               {({ active }) => (
                 <a
-                  onClick={() => router.push("/projects")}
+                  onClick={() => router.push("/services")}
                   href="#"
                   className={classNames(
                     active ? 'bg-gray-100 text-black' : 'text-black',
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Projects
+                  Services
                 </a>
               )}
             </Menu.Item>
@@ -55,7 +55,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  About Me
+                  About Us
                 </a>
               )}
             </Menu.Item>
@@ -69,7 +69,7 @@ export default function Example() {
                     'block px-4 py-2 text-sm'
                   )}
                 >
-                  Contact Me
+                  Contact Us
                 </a>
               )}
             </Menu.Item>
