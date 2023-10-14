@@ -41,8 +41,8 @@ const Contact = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <p className='text-[rgb(251,247,245)] text-2xl md:text-3xl lg:text-4xl
-       font-semibold text-center decoration-[#9A0000] underline pt-20'>
+      <p className='text-[#FFCC] text-2xl md:text-3xl lg:text-4xl
+       font-semibold text-center decoration-[#D54751] underline pt-20'>
         Send us an Email!</p>
 
       <form
@@ -79,8 +79,8 @@ const Contact = () => {
           maxLength="1500"
         />
 
-        <button type='submit' value="send" className='bg-[#9A0000] py-3 px-10
-         rounded-md text-black font-bold text-lg'>Submit</button>
+        <button type='submit' value="send" className='bg-[#D54751] py-3 px-10
+         rounded-md text-[#FFCC] font-bold text-lg'>Submit</button>
 
         {statusMessage === "Success!" ?
           <p className='contact-form text-center font-semibold

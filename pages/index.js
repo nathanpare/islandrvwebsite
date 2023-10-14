@@ -24,7 +24,7 @@ export default function Home() {
       <Header />
 
       <main>
-        <div className='text-[rgb(251,247,245)] flex flex-col items-center pt-36'>
+        <div className='text-[#FFCC] flex flex-col items-center pt-36'>
           <div className='text-3xl sm:text-4xl font-semibold md:text-5xl
            lg:text-6xl'>
             <Typewriter
@@ -36,7 +36,7 @@ export default function Home() {
               delaySpeed={1000}
               onLoopDone={handleDone}
             />
-            <Cursor cursorColor='#9A0000' />
+            <Cursor cursorColor='#4DA394' />
           </div>
 
           <div className='text-xl sm:text-2xl md:text-3xl lg:text-4xl py-8
@@ -94,8 +94,8 @@ export default function Home() {
               duration: 1,
             }}>
             <button onClick={() => router.push("/contact")}
-              className='bg-[#9A0000] py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>Contact Us</button>
+              className='bg-[#D54751] py-2 px-8 sm:py-3 sm:px-10 rounded-md
+           text-[#FFCC] font-bold text-lg'>Contact Us</button>
           </motion.div>
         </div>
       </main>
