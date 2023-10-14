@@ -1,11 +1,13 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
 import React from 'react';
+import { useRouter } from 'next/router';
 
 import { motion } from "framer-motion";
 import Image from 'next/image';
 
 const Services = () => {
+  const router = useRouter();
 
   return (
     <div className='text-white h-screen snap-y snap-mandatory overflow-scroll'>
@@ -39,7 +41,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Youtube</h4>
+            <h4>Exterior Detailing</h4>
           </motion.div>
 
           <motion.div
@@ -60,17 +62,14 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-112249.png" alt='' height={120} width={120} />
+            <Image src="/pngaaa.com-4590445.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
-        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the first of your own custom projects or services.</p>
-        <button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = 'http://youtube.com';
-        }} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
-           text-black font-bold text-lg'>View Service</button>
+        <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>We offer
+         exterior detailing services such as washing, waxing, paint protection etc..</p>
+        <button onClick={() => router.push("/contact")} className='bg-[#9A0000] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
+           text-black font-bold text-lg'>Contact Us</button>
       </section>
 
       <section id='project-2' className='snap-start h-screen flex flex-col
@@ -95,7 +94,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Google</h4>
+            <h4>Interior Detailing</h4>
           </motion.div>
 
           <motion.div
@@ -116,18 +115,15 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-1689978.png" alt='' height={120} width={120} />
+            <Image src="/pngaaa.com-5838275.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
-        <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the second of your own custom projects or services.</p>
-        <button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = 'http://google.com';
-        }} className='bg-[#9A0000]
+        <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>We offer
+         Interior Detailing services such as cleaning, sanitizing and refreshing.</p>
+        <button onClick={() => router.push("/contact")} className='bg-[#9A0000]
        mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-black
-       font-bold text-lg'>View Service</button>
+       font-bold text-lg'>Contact Us</button>
       </section>
 
       <section id='project-3' className='snap-center h-screen flex flex-col 
@@ -152,7 +148,7 @@ const Services = () => {
               delay: 1
             }}
           >
-            <h4>Netflix</h4>
+            <h4>Winterizing</h4>
           </motion.div>
 
           <motion.div
@@ -173,18 +169,15 @@ const Services = () => {
               delay: 2
             }}
           >
-            <Image src="/pngaaa.com-4212740.png" alt='' height={120} width={120} />
+            <Image src="/pngaaa.com-894491.png" alt='' height={120} width={120} />
           </motion.div>
         </div>
 
-        <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>This is
-          where you could put the second of your own custom projects or services.</p>
-        <button onClick={(e) => {
-          e.preventDefault();
-          window.location.href = 'http://netflix.com';
-        }} className='bg-[#9A0000]
+        <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>We offer
+         winterizing services to keep your unit safe over the winter.</p>
+        <button onClick={() => router.push("/contact")} className='bg-[#9A0000]
       mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-black font-bold
-      text-lg'>View Service</button>
+      text-lg'>Contact Us</button>
       </section>
     </div>
   );
