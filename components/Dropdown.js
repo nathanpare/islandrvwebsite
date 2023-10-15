@@ -14,9 +14,9 @@ export default function Example() {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#D54751] px-3 py-2 text-sm md:text-md font-semibold text-black">
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-[#D54751] px-3 py-2 text-sm md:text-md font-semibold text-[#FFCC]">
           More
-          <ChevronDownIcon className="-mr-1 h-5 w-5 text-black" aria-hidden="true" />
+          <ChevronDownIcon className="-mr-1 h-5 w-5 text-[#FFCC]" aria-hidden="true" />
         </Menu.Button>
       </div>
 
