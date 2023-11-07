@@ -31,9 +31,9 @@ export default function Home() {
               words={['Island Rv Detailing', 'Take a look at our services!',
                 'Read about us!', "Send us an email!"]}
               loop={4}
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
+              typeSpeed={50}
+              deleteSpeed={30}
+              delaySpeed={2000}
               onLoopDone={handleDone}
             />
             <Cursor cursorColor='#4DA394' />

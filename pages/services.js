@@ -3,7 +3,6 @@ import Header from '@/components/Header';
 import React from 'react';
 import { useRouter } from 'next/router';
 
-import { motion } from "framer-motion";
 import Image from 'next/image';
 
 const Services = () => {
@@ -23,51 +22,18 @@ const Services = () => {
        items-center pt-28'>
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row
          items-center mx-auto py-24'>
-          <motion.div
-            className='px-5 mx-auto'
-            id='left-1'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 1
-            }}
-          >
+          <div className='px-5 mx-auto'>
             <h4>Exterior Detailing</h4>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className='p-2 px-5 mx-auto'
-            id='right-1'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 2
-            }}
-          >
+          <div
+            className='p-2 px-5 mx-auto'>
             <Image src="/pngaaa.com-4590445.png" alt='' height={120} width={120} />
-          </motion.div>
+          </div>
         </div>
 
         <p id='bottom' className='text-xl sm:text-2xl text-center px-5'>We offer
-         exterior detailing services such as washing, waxing, paint protection etc..</p>
+          exterior detailing services such as washing, waxing, paint protection etc..</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D54751] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-[#FFCC] font-bold text-lg'>Contact Us</button>
       </section>
@@ -76,51 +42,19 @@ const Services = () => {
        items-center pt-28'>
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl
          flex flex-row items-center mx-auto py-24'>
-          <motion.div
-            className='px-5 mx-auto'
-            id='left-2'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 1
-            }}
-          >
+          <div
+            className='px-5 mx-auto'>
             <h4>Interior Detailing</h4>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className='p-2 px-5 mx-auto'
-            id='right-2'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 2
-            }}
-          >
+          <div
+            className='p-2 px-5 mx-auto'>
             <Image src="/pngaaa.com-5838275.png" alt='' height={120} width={120} />
-          </motion.div>
+          </div>
         </div>
 
         <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5'>We offer
-         Interior Detailing services such as cleaning, sanitizing and refreshing.</p>
+          Interior Detailing services such as cleaning, sanitizing and refreshing.</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D45751]
        mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-[#FFCC]
        font-bold text-lg'>Contact Us</button>
@@ -130,51 +64,19 @@ const Services = () => {
        items-center pt-28'>
         <div id='top-2' className='text-2xl sm:text-3xl md:text-4xl
          flex flex-row items-center py-24'>
-          <motion.div
-            className='p-2 mx-auto'
-            id='left-3'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 1
-            }}
-          >
+          <div
+            className='p-2 mx-auto'>
             <h4>Winterizing</h4>
-          </motion.div>
+          </div>
 
-          <motion.div
-            className='p-2 px-5 mx-auto'
-            id='right-3'
-            initial={{
-              x: 0,
-              opacity: 0,
-              scale: 0.25
-            }}
-            whileInView={{
-              x: 0,
-              opacity: 1,
-              scale: 1
-            }}
-            transition={{
-              duration: 1,
-              delay: 2
-            }}
-          >
+          <div
+            className='p-2 px-5 mx-auto'>
             <Image src="/pngaaa.com-894491.png" alt='' height={120} width={120} />
-          </motion.div>
+          </div>
         </div>
 
         <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5'>We offer
-         winterizing services to keep your unit safe over the winter.</p>
+          winterizing services to keep your unit safe over the winter.</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D54751]
       mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-[#FFCC] font-bold
       text-lg'>Contact Us</button>
