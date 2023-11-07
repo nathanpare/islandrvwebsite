@@ -10,7 +10,7 @@ const Header = () => {
     <div className='sticky top-0 h-24 flex justify-between
      items-center pr-5'>
       <Image onClick={() => router.push("/")} className='cursor-pointer pt-8' src="/island logo png white.png"
-       alt='' height={150} width={150} />
+        alt='' height={150} width={150} />
       <Dropdown />
     </div>
   );
