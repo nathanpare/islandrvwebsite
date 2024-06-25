@@ -47,17 +47,17 @@ const Services = () => {
          flex flex-row items-center mx-auto py-24 font-ubuntu'>
           <div
             className='px-5 mx-auto'>
-            <h4>Interior Detailing</h4>
+            <h4>Polishing</h4>
           </div>
 
           <div
             className='p-2 px-5 mx-auto'>
-            <Image src="/pngaaa.com-5838275.png" alt='' height={120} width={120} />
+            <Image src="/pngaaa.com-8034270.png" alt='' height={120} width={120} />
           </div>
         </div>
 
         <p id='bottom-2' className='text-xl sm:text-2xl text-center px-5 font-ubuntu'>We offer
-          Interior Detailing services such as cleaning, sanitizing and refreshing.</p>
+          expert polishing services to bring it back to looking like new!</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D45751]
        mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-[#FFCC]
        font-bold text-lg'>Contact Us</button>
@@ -69,17 +69,17 @@ const Services = () => {
          flex flex-row items-center py-24 font-ubuntu'>
           <div
             className='p-2 mx-auto'>
-            <h4>Winterizing</h4>
+            <h4>Resealing</h4>
           </div>
 
           <div
             className='p-2 px-5 mx-auto'>
-            <Image src="/pngaaa.com-894491.png" alt='' height={120} width={120} />
+            <Image src="/pngaaa.com-1544525.png" alt='' height={120} width={120} />
           </div>
         </div>
 
         <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5 font-ubuntu'>We offer
-          winterizing services to keep your unit safe over the winter.</p>
+          resealing services to prevent leaks from ruining your vacation!</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D54751]
       mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-[#FFCC] font-bold
       text-lg'>Contact Us</button>
