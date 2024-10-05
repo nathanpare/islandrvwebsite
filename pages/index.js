@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Header from '@/components/Header';
+import Banner from '@/components/Banner';
 
 import { useRouter } from 'next/router';
 import { Typewriter, Cursor } from 'react-simple-typewriter';
@@ -27,6 +28,8 @@ export default function Home() {
       </Head>
 
       <Header />
+
+      <Banner />
 
       <main>
         <div className='text-[#FFCC] flex flex-col items-center pt-36'>
