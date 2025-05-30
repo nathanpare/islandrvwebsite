@@ -26,7 +26,8 @@ const Services = () => {
         <div id='top' className='text-2xl sm:text-3xl md:text-4xl flex flex-row
          items-center mx-auto py-24 font-ubuntu'>
           <div className='px-5 mx-auto'>
-            <h4>Exterior Detailing</h4>
+            <h4>Wash and Wax</h4>
+            <h5>$15/ Linear Foot</h5>
           </div>
 
           <div
@@ -35,8 +36,10 @@ const Services = () => {
           </div>
         </div>
 
-        <p id='bottom' className='text-xl sm:text-2xl text-center px-5 font-ubuntu'>We offer
-          exterior detailing services such as washing, waxing, paint protection etc..</p>
+        <p id='bottom' className='text-xl sm:text-2xl text-center px-5
+         font-ubuntu'>Wash and Wax includes washing and treating the roof,
+          washing the exterior with Maguiar's gold soap, detailing with
+          simple green, finally a high end power wax with Maguiar's Pure Wax.</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D54751] mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md
            text-[#FFCC] font-bold text-lg'>Contact Us</button>
       </section>
@@ -47,7 +50,8 @@ const Services = () => {
          flex flex-row items-center mx-auto py-24 font-ubuntu'>
           <div
             className='px-5 mx-auto'>
-            <h4>Polishing</h4>
+            <h4>Cut, Polish and Wax</h4>
+            <h5>$25/ Linear Foot</h5>
           </div>
 
           <div
@@ -70,6 +74,7 @@ const Services = () => {
           <div
             className='p-2 mx-auto'>
             <h4>Resealing</h4>
+            <h5>$35/ Linear Foot</h5>
           </div>
 
           <div
@@ -79,7 +84,9 @@ const Services = () => {
         </div>
 
         <p id='bottom-3' className='text-xl sm:text-2xl text-center px-5 font-ubuntu'>We offer
-          resealing services to prevent leaks from ruining your vacation!</p>
+          resealing includes removing all old seals on the roof, cleaning the surfaces
+          and applying brand new seals. Also includes any seals on the sides of
+          the unit that require attention.</p>
         <button onClick={() => router.push("/contact")} className='bg-[#D54751]
       mt-5 py-2 px-8 sm:py-3 sm:px-10 rounded-md text-[#FFCC] font-bold
       text-lg'>Contact Us</button>
