@@ -27,7 +27,6 @@ const Services = () => {
          items-center mx-auto py-24 font-ubuntu'>
           <div className='px-5 mx-auto'>
             <h4>Wash and Wax</h4>
-            <h5>$15/ Linear Foot</h5>
           </div>
 
           <div
@@ -50,8 +49,7 @@ const Services = () => {
          flex flex-row items-center mx-auto py-24 font-ubuntu'>
           <div
             className='px-5 mx-auto'>
-            <h4>Cut, Polish and Wax</h4>
-            <h5>$25/ Linear Foot</h5>
+            <h4>Cut Polishing</h4>
           </div>
 
           <div
@@ -74,7 +72,6 @@ const Services = () => {
           <div
             className='p-2 mx-auto'>
             <h4>Resealing</h4>
-            <h5>$35/ Linear Foot</h5>
           </div>
 
           <div
